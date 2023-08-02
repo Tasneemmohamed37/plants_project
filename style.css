@@ -352,3 +352,17 @@ footer .copyright {
     }
 
 }
+
+@media screen and (max-width:980px) {
+    #newsletter  {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 30px;
+    }#newsletter .form ,
+    #newsletter .newstext {
+        width: 100%;
+        /* text-align: center; */
+    }
+}
